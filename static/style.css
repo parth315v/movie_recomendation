@@ -24,7 +24,7 @@
 }
 
 #content {
-	background-image: url("../static/image.jpg");
+	background-image: url("../static/poster.jpg");
 	background-color: #181818;
 	font-family: 'Noto Sans JP', sans-serif;
 }
@@ -33,14 +33,14 @@
 	margin-left: 50px;
 }
 
-.footer {
+/*.footer {
 	color: #e4e0e0;
 	text-align:right;
 	position: fixed;
  	bottom: 20px;
  	right: 20px;
  	width: 100%;
-}
+}*/
 
 h1 {
     font-family: 'Netflix Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -102,7 +102,7 @@ h6 {
 		top:0;
 		width: 100%;
 		height: 100%;
-		background-image: url("../static/loader.gif");
+		background-image: url("../static/gif.gif");
 		background-size: 40%;
 		background-position: 50% 50%;
 		background-color: rgba(255, 255, 255, 1);
@@ -161,10 +161,10 @@ h6 {
 		top:0;
 		width: 100%;
 		height: 100%;
-		background-image: url("../static/loader.gif");
+		background-image: url("../static/gif.gif");
 		background-size: 20%;
 		background-position: 50% 50%;
-		background-color: rgba(255, 255, 255, 1);
+		background-color: rgb(0, 0, 0);
 		background-repeat: no-repeat;
 		-webkit-transition: background-image 0.2s ease-in-out;
 		transition: background-image 0.2s ease-in-out;

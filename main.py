@@ -22,7 +22,7 @@ data, similarity = None, None
 def create_similarity():
     global data, similarity
     logging.info('Creating similarity matrix...')
-    data = pd.read_csv('D:\ldrp\dataset/main_data.csv')
+    data = pd.read_csv('main_data.csv')
     # creating a count matrix
     cv = CountVectorizer()
     count_matrix = cv.fit_transform(data['comb'])
@@ -60,7 +60,7 @@ def convert_to_list(my_list):
     return my_list
 
 def get_suggestions():
-    data = pd.read_csv('D:\ldrp\dataset/main_data.csv')
+    data = pd.read_csv('main_data.csv')
     return list(data['movie_title'].str.capitalize())
 logging.info('suggestion is done')
 
